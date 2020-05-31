@@ -14,7 +14,6 @@ from bs4 import BeautifulSoup as soup
 from urllib.request import urlopen as req
 import time
 import csv
-import pdb
 
 
 # site
@@ -56,8 +55,6 @@ while (i+1) < len(rest):
             "class": "lemon--span__373c0__3997G text__373c0__2Kxyz text-color--black-regular__373c0__2vGEn text-align--left__373c0__2XGa- text-weight--bold__373c0__1elNz text-size--inherit__373c0__2fB3p"}).a['href']
     sub_link.append(rest_link)
 
-
-###################################################################
 # open csv file
 # let csv writter start
 
